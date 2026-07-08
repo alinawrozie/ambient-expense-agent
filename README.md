@@ -60,7 +60,7 @@ You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`
 | `agents-cli deploy`  | Deploy agent to Agent Runtime                                                                |
 | `agents-cli publish gemini-enterprise` | Register deployed agent to Gemini Enterprise                    || [A2A Inspector](https://github.com/a2aproject/a2a-inspector) | Launch A2A Protocol Inspector                                                        |
 
-## 🛠️ Project Management
+## Project Management
 
 | Command | What It Does |
 |---------|--------------|
