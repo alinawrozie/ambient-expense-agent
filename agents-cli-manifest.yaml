@@ -1,0 +1,13 @@
+name: "ambient-expense-agent"
+acli_version: "1.0.0"
+agent_directory: "expense_agent"
+region: "us-east1"
+base_template: "adk"
+generated_at: "2026-07-08T13:02:05.747464+00:00"
+language: "python"
+create_params:
+  deployment_target: "agent_runtime"
+  session_type: "none"
+  cicd_runner: "skip"
+  is_a2a: true
+  agent_guidance_filename: "GEMINI.md"
