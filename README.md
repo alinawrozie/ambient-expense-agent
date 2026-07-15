@@ -1,17 +1,17 @@
 # ambient-expense-agent
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `1.0.0`
+Simple ReAct Agent
+generated with `agents-cli` version `1.0.0`
 
 ## Project Structure
 
 ```
 ambient-expense-agent/
-├── app/         # Core agent code
+├── expense_agent/ # Core agent code
 │   ├── agent.py               # Main agent logic
 │   ├── fast_api_app.py        # FastAPI Backend server
 │   └── app_utils/             # App utilities and helpers
-├── tests/                     # Unit, integration, and load tests
+├── tests/                     # Unit, integration, and evaluation tests
 ├── GEMINI.md                  # AI-assisted development guide
 └── pyproject.toml             # Project dependencies
 ```
@@ -58,7 +58,7 @@ You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`
 | `agents-cli eval`    | Evaluate agent behavior (generate, grade, analyze, and more — see `agents-cli eval --help`) |
 | `uv run pytest tests/unit tests/integration` | Run unit and integration tests                                                        |
 | `agents-cli deploy`  | Deploy agent to Agent Runtime                                                                |
-| `agents-cli publish gemini-enterprise` | Register deployed agent to Gemini Enterprise                    || [A2A Inspector](https://github.com/a2aproject/a2a-inspector) | Launch A2A Protocol Inspector                                                        |
+| `agents-cli publish gemini-enterprise` | Register deployed agent to Gemini Enterprise                                |
 
 ## Project Management
 
@@ -72,7 +72,7 @@ You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`
 
 ## Development
 
-Edit your agent logic in `app/agent.py` and test with `agents-cli playground` - it auto-reloads on save.
+Edit your agent logic in `expense_agent/agent.py` and test with `agents-cli playground` - it auto-reloads on save.
 
 ## Deployment
 
