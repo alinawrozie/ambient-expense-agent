@@ -1,7 +1,7 @@
 # ambient-expense-agent
 
-Simple ReAct Agent
-generated with `agents-cli` version `1.0.0`
+Agentic workflow with guardrails & human approval
+`agents-cli` version `1.0.0`
 
 ## Project Structure
 
